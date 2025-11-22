@@ -1,13 +1,12 @@
-# NaiveBayes
-Naive Bayes Classifier
+# Naive Bayes Classifier
 
 This is a Naive Bayes classification system.  Compile this program by navigating to the folder containing the source files then executing:
 
-javac *.java
+`javac *.java`
 
-After that, you can execute the program by executing:
+After that, you can run the program by executing:
 
-java NaiveBayes
+`java NaiveBayes`
 
 This will bring you to the main menu with a list of all your options. Before you can do anything you must first train the system (option 1). To do this you must have two existing files to train the system with. The first file contains the metadata, which allows the system to prepare it's data structures for the actual data it is going to learn from. The metadata file must contain a list of attributes, and each attributes possible values, ending with the classification. The next file contains the actual learning data. Each line is one example, each attribute is separated by a comma.
 
